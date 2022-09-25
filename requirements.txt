@@ -1,0 +1,22 @@
+# my environment setup steps:
+# in ubuntu, install virtualenv first and execute following commands:
+# virtualenv env -p=python3.7 (create virtual environment)
+# source ./env/bin/activate (activate this enviroment)
+# python -m pip install --upgrade pip
+# pip install -r requirement.txt (install following libraries according to this file) 
+ 
+atari-py==0.2.6
+gym==0.17.3
+numpy==1.18.5
+opencv-python==4.4.0.46
+tensorboard==2.4.0
+torch==1.7.0
+torchvision==0.8.1
+pytorch-ignite==0.4.2
+tensorboardX==2.1
+tensorflow==2.3.1
+nltk==3.5
+pybullet==3.0.7
+ptan==0.7
+matplotlib
+pandas
