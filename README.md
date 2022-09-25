@@ -4,7 +4,7 @@ Implementation of paper "Dynamic Bus Holding Control Using Spatial-Temporal Data
 This paper proposes a deep reinforcement learning approach: "Spatial-Temporal data driven Dynamic Holding (STDH)", that dynamically determines the dispatching of bus services at the starting bus stop for a high-frequency bus service line. 
 
 ### About The Data
-We use data from BRT (Bus Rapid Transit) Line 2 of Xiamen city, China on a random day in June 2018. It is a high-freqency bus line system which is a good candidate for real-time control. The environment is simulated based on real passenger swiping records and bus travel time information, with some pre-processing steps to simulate passenger arrival times based on corresponding boarding time, since passenger arrival times are not directly recorded in swiping records. A uniform distribution of arrivals during two consecutive buses at each stop is assumed.
+We use data from BRT (Bus Rapid Transit) Line 2 of Xiamen city, China on a random day in June 2018. It is a high-freqency bus line system which is a good candidate for real-time control. The environment is simulated based on real passenger swiping records and bus travel time information, with some pre-processing steps to simulate passenger arrival times based on corresponding boarding time, since passenger arrival times are not directly recorded in swiping records. A uniform distribution of arrivals during two consecutive buses at each stop is assumed. Please refer file ".\data\readme.txt" for detailed information. 
 
 ### Getting Started
 This project use PyTorch as machine learning framework and PTAN (https://github.com/Shmuma/ptan) as reinforcement learning base framework. Please refer to the "requirement.txt" file for my develop environemnt setup. 
