@@ -9,6 +9,8 @@ We use data from BRT (Bus Rapid Transit) Line 2 of Xiamen city, China on a rando
 ### Getting Started
 This project use PyTorch as machine learning framework and PTAN (https://github.com/Shmuma/ptan) as reinforcement learning base framework. Please refer to the "requirement.txt" file for my develop environemnt setup. 
 
+NOTE: THE "requirement.txt" is NOT SUFFICENT, PLEASE INSTALL ANY OTHER LIBRARIES NECCESARRAY WHEN ENCOUNTER ERRORS
+
 ## Usage
 * To train a control model, execute the command:
   ```
